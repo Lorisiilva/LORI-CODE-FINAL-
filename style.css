@@ -1,0 +1,11 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+function preload() {
+  font = loadFont("AvenirNextLTPro-Demi.otf");
+  loadScript("https://cdnjs.cloudflare.com/ajax/libs/p5.gui/1.2/p5.gui.min.js");
+}
